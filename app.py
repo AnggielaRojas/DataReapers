@@ -19,7 +19,7 @@ Base = automap_base()
 Base.prepare(db.engine, reflect = True)
 
 # reference to tables
-fetal_data = Base.classes.fetal_db
+fetal_data = Base.classes.fetal_data
 
 # establish route home page
 @app.route("/")
@@ -29,18 +29,27 @@ def home_page():
 # # establish route for data
 @app.route("/api/fetal_data")
 def fetaldata():
-    session =Session(engine)
-    fetaldata = session.query(
+    sel = [
         fetal_data.state,
         fetal_data.race_hispanic_origin,
         fetal_data.age,
         fetal_data.delivery_place,
         fetal_data.delivery_method,
         fetal_data.fetal_deaths
-    ).all()
-    session.close()
-    all_fetaldata = list(np.ravel(fetal_data))
-    return jsonify(all_fetaldata)
+    ]
+    results = db.session.query(*sel).all()
+
+    data_fetal = {}
+   
+    data_fetal["state"]  = [result[0] for result in results]
+    data_fetal["race_hispanic_origin"] = [result[1] for result in results]
+    data_fetal["age"] = [result[2] for result in results]
+    data_fetal["delivery_place"] = [result[3] for result in results]
+    data_fetal["delivery_method"] = [result[4] for result in results]
+    data_fetal["fetal_deaths"] = [result[5] for result in results]
+
+    print(data_fetal)
+    return jsonify(data_fetal)
 
 
 # run app
