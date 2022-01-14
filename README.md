@@ -3,18 +3,26 @@
 For this project we got our data source from https://wonder.cdc.gov/controller/datarequest/D133;jsessionid=597E1183D3658A174B2B660B9B7C . Cleaning the  allowed us to compare various contributions to fetal deaths. This data set gave us acces to data from 2005-2019.
 
 ## Importance : 
-The purpose of this project was to be able to demostrate skills in order to analyse, visualize and better understand our data. Our data provided a baseline to fetal deaths over the past 14 years. This helps identify contributing with  fetal deaths 
+The purpose of this project was to be able to demostrate skills in order to analyse, visualize and better understand our data. Our data provided a baseline to fetal deaths over the past 14 years. This helps us identify contributing factors to fetal deaths 
 ## Problem statement : 
-Be able to use a database such as MongoDB, SQL,SQLite, in order to house our data and then visualize the data by comparing different categories. Be able to visualize the categories that contribute to fetal deaths.  
+* Be able to use a database such as MongoDB, SQL,SQLite, in order to house our data and then visualize the data by comparing different categories. 
+* Be able to visualize the categories that contribute to fetal deaths.  
 ## Questions to answer : 
 * Does mother’s age affect fetal death?
-* What type of delivery place are fetal deaths more common?
+* What is the impact of a mother's race/hispanic origin?
 * Is there a delivery method that is more dangerous to fetal outcomes?
 
 # Database : 
 ## Postgres : 
 PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.  
+### Installing Postgres : 
+* Go to the download page of PostgreSQL installers on the EnterpriseDB. https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+* Download installer for your respective operating system
+* Once the installation is complete:
+* Mac users will find a folder in their Applications named ‘PostgreSQL 13’.
+* Windows users will be able to access the same files by clicking the start menu and scrolling to the ‘PostgreSQL 13’ folder
 
+## Our database : 
 The database that we used was Postgres . The fetal_db file was  created in Postgres prior to running the jupyter notebook. When establishing connection to the database in the app.py file, we updates the connection to reflect correct username and password of the users system. A primary key was assigned to the table for the automap_base to work.<img width="880" alt="Screen Shot 2022-01-13 at 7 18 15 PM" src="https://user-images.githubusercontent.com/89117449/149429493-2894e24c-68de-4453-bfaf-a5e18f0b6db6.png">
 
 The url to get the data from is "/api/fetal_data"
@@ -63,7 +71,20 @@ For our dataset we used the CDC  and pulled the following fields for the years 2
  
 <img width="856" alt="Screen Shot 2022-01-13 at 6 55 15 PM" src="https://user-images.githubusercontent.com/89117449/149427327-55b0c1c5-b81d-4c55-95d3-5d2cedfee787.png">
 
+## Data Visualization 
 
+### Bar graph 
+* The following inlcudes snipets of our bar graph 
+* The bar graphs compares Fetal deaths to Delivery methods such as Vaginal and Caesarean
+<img width="469" alt="Screen Shot 2022-01-13 at 10 37 31 PM" src="https://user-images.githubusercontent.com/89117449/149447428-b89541c2-a539-4939-9411-af3ccf002734.png">
+
+
+### Pie graph 
+* The following inlcudes snipets of our bar graph 
+* The bar graphs compares Fetal deaths to Race/Hispanic origin
+<img width="396" alt="Screen Shot 2022-01-13 at 10 37 42 PM" src="https://user-images.githubusercontent.com/89117449/149447442-77d913d5-b232-4da6-b9e1-2e17c5a06157.png">
+
+### Line graph 
 
 # Findings: 
 
