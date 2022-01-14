@@ -3,7 +3,11 @@ For this proejct we got our data source from https://wonder.cdc.gov/controller/d
 ## Importance : 
 The purspose of this project was to be able to demostrate skills in order to analyse, visualize and better understand our data. Our data provided a baseline to what factor contribute to the fetal deaths of the the past 14 years. This helps identify what issues we have with fetal deaths and  contributing factors. 
 ## Problem statement : 
-Be able to use a database such as MongoDB, SQL,SQLite, in order to house our data and then visualize the data by comparing different categories. Be able to visualize the categories that contribute to fetal deaths.  
+Be able to use a database such as MongoDB, SQL,SQLite, in order to house our data and then visualize the data by comparing different categories. Be able to visualize the categories that contribute to fetal deaths.  ## Questions to answer : 
+Does mother’s age affect fetal death?
+What type of delivery place are fetal deaths more common?
+Is there a delivery method that is more dangerous to fetal outcomes?
+
 # Program istallation : 
 ### Jupiter Notebook and Python:
 Jupiter notebook is a web application that allows you to create and share live code. It allows you to also share visualizations, equations and text. Some of its uses include data cleaning and viewing, transformations, and statistical modeling. Jupiter supports Julia, Python, and R.
