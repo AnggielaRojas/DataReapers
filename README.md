@@ -12,7 +12,7 @@ The purpose of this project was to be able to demostrate skills in order to anal
 * What is the impact of a mother's race/hispanic origin?
 * Is there a delivery method that is more dangerous to fetal outcomes?
 
-# Database : 
+# Installation and database : 
 ## Postgres : 
 PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.  
 ### Installing Postgres : 
@@ -31,8 +31,7 @@ The names of the variables to call are the same as in the jupyter notebook file,
 
 <img width="876" alt="Screen Shot 2022-01-13 at 7 19 39 PM" src="https://user-images.githubusercontent.com/89117449/149429626-2b2bb315-89c5-4883-a400-36448865dbf2.png">
 
-# Program installation : 
-### Jupiter Notebook and Python:
+## Jupiter Notebook and Python:
 Jupiter notebook is a web application that allows you to create and share live code. It allows you to also share visualizations, equations and text. Some of its uses include data cleaning and viewing, transformations, and statistical modeling. Jupiter supports Julia, Python, and R.
 
 A basic level of knowledge of Jupyter notebook and Python was needed in order to complete this project. We did some basic things such as reading a csv. file, cleaning the file , making data frames, and using data frames to make graphs.
@@ -60,7 +59,7 @@ For our dataset we used the CDC  and pulled the following fields for the years 2
 - Age of Mother - Line graph 
 - Delivery state - Bar graph
 - Delivery method - Lollipop chart 
-### Data manipulation : 
+# Data manipulation : 
  The following include snipppets of how we cleanned and analyzed the data  
 ### Reading/ Data frame :<img width="876" alt="Screen Shot 2022-01-13 at 6 44 08 PM" src="https://user-images.githubusercontent.com/89117449/149426328-6a70133e-d3f6-4b80-a5ce-0dc7c71ed797.png">
 
@@ -71,20 +70,24 @@ For our dataset we used the CDC  and pulled the following fields for the years 2
  
 <img width="856" alt="Screen Shot 2022-01-13 at 6 55 15 PM" src="https://user-images.githubusercontent.com/89117449/149427327-55b0c1c5-b81d-4c55-95d3-5d2cedfee787.png">
 
-## Data Visualization 
+# Data Visualization 
 
-### Bar graph 
+## Bar graph 
 * The following inlcudes snipets of our bar graph 
 * The bar graphs compares Fetal deaths to Delivery methods such as Vaginal and Caesarean
 <img width="469" alt="Screen Shot 2022-01-13 at 10 37 31 PM" src="https://user-images.githubusercontent.com/89117449/149447428-b89541c2-a539-4939-9411-af3ccf002734.png">
 
+### Our code : 
+<img width="472" alt="Screen Shot 2022-01-13 at 10 59 48 PM" src="https://user-images.githubusercontent.com/89117449/149449301-3c1c7a54-8100-480d-8792-89d6fa9fab49.png">
 
-### Pie graph 
+## Pie graph 
 * The following inlcudes snipets of our bar graph 
 * The bar graphs compares Fetal deaths to Race/Hispanic origin
 <img width="396" alt="Screen Shot 2022-01-13 at 10 37 42 PM" src="https://user-images.githubusercontent.com/89117449/149447442-77d913d5-b232-4da6-b9e1-2e17c5a06157.png">
+### Our code : 
+<img width="692" alt="Screen Shot 2022-01-13 at 11 01 16 PM" src="https://user-images.githubusercontent.com/89117449/149449410-96cbb3bb-f056-4bef-884a-3cf085320efe.png">
 
-### Line graph 
+## Line graph 
 
 # Findings: 
 
