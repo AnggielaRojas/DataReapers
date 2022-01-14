@@ -1,9 +1,7 @@
 # Visualization for fetal deaths: 
-<<<<<<< HEAD
+
 For this project we got our data source from https://wonder.cdc.gov/controller/datarequest/D133;jsessionid=597E1183D3658A174B2B660B9B7C . Cleaning the  allowed us to compare various contributions to fetal deaths. This data set gave us acces to data from 2005-2019.
-=======
-For this proejct we got our data set from :  https://wonder.cdc.gov/controller/datarequest/D133;jsessionid=597E1183D3658A174B2B660B9B7C  Cleaning the dataset allowed us to compare various contributions to fetal deaths. This data set gave us acces to data from 2005-2019.
->>>>>>> e8f62271762df49c0e96edd49cc3b01284296f6e
+
 ## Importance : 
 The purpose of this project was to be able to demostrate skills in order to analyse, visualize and better understand our data. Our data provided a baseline to fetal deaths over the past 14 years. This helps identify contributing with  fetal deaths 
 ## Problem statement : 
