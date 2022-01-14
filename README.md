@@ -3,10 +3,11 @@ For this proejct we got our data source from https://wonder.cdc.gov/controller/d
 ## Importance : 
 The purspose of this project was to be able to demostrate skills in order to analyse, visualize and better understand our data. Our data provided a baseline to what factor contribute to the fetal deaths of the the past 14 years. This helps identify what issues we have with fetal deaths and  contributing factors. 
 ## Problem statement : 
-Be able to use a database such as MongoDB, SQL,SQLite, in order to house our data and then visualize the data by comparing different categories. Be able to visualize the categories that contribute to fetal deaths.  ## Questions to answer : 
-Does mother’s age affect fetal death?
-What type of delivery place are fetal deaths more common?
-Is there a delivery method that is more dangerous to fetal outcomes?
+Be able to use a database such as MongoDB, SQL,SQLite, in order to house our data and then visualize the data by comparing different categories. Be able to visualize the categories that contribute to fetal deaths.  
+## Questions to answer : 
+* Does mother’s age affect fetal death?
+* What type of delivery place are fetal deaths more common?
+* Is there a delivery method that is more dangerous to fetal outcomes?
 
 # Program istallation : 
 ### Jupiter Notebook and Python:
@@ -23,11 +24,10 @@ There are different ways you can install Jupiter notebook, We can use either mam
 
 Installation using conda: In your terminal of command line type:
 
-<img width="598" alt="Screen Shot 2022-01-13 at 6 33 47 PM" src="https://user-![Uploading Screen Shot 2022-01-13 at 6.54.23 PM.png…]()
-images.githubusercontent.com/89117449/149425368-5c1df011-799b-4864-a459-f9f512ee80ae.png">
+<img width="660" alt="Screen Shot 2022-01-13 at 7 32 53 PM" src="https://user-images.githubusercontent.com/89117449/149430690-7fe669f8-80a0-4044-a997-3b6a16dfde03.png">
 
-
-Run Jupyter Notebook Just run the following in your terminal or command line! 
+Run Jupyter Notebook Just run the following in your terminal or command line
+! 
 <img width="602" alt="Screen Shot 2022-01-13 at 6 33 58 PM" src="https://user-images.githubusercontent.com/89117449/149425392-7e461d51-e4fd-428e-9341-d6195f7a5502.png">
 
 If you are unable to install Jupyter notebook :
