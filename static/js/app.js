@@ -13,7 +13,7 @@ var delivery_place = data.delivery_place
 var delivery_method = data.delivery_method    
 console.log(state)
 
-// bar chart creation
+// bar chart creation for method
 
  // Bar chart
  var bar_trace = [{
@@ -95,13 +95,61 @@ var pielayout = {
     title: `<b>Fetal Deaths by Race/Hispanic Origin<b>`,
     height: 400,
     width: 500,
+    
 }
 
 Plotly.newPlot("pie",pie_trace, pielayout);
 
-// add map for state data
+// bar chart creation for method
+
+ // Bar chart
+ var barp_trace = [{
+    type: 'bar',
+    x: delivery_place,
+    y: fetal_deaths,
+    mode: 'markers',
+    transforms: [{
+      type: 'aggregate',
+      groups: delivery_method,
+      aggregations: [
+        {target: 'y', func: 'avg', enabled: true},
+      ]
+    }]
+  }]
   
 
+// Apply layout
+
+var barplayout = {
+    title: `<b>Fetal Deaths by Delivery Place<b>`,
+    xaxis: { title: "Delivery Place" },
+    yaxis: { title: "Fetal Death count" },
+    autosize: false,
+    height: 400,
+    width: 600,
+    }
+
+Plotly.newPlot("bar_place", barp_trace, barplayout);
+
+
+
+// add map for state data
+  
+var state = [{
+    type: 'bar',
+    x: fetal_deaths.sort(function(a,b){return a - b}),
+    y: state,
+    orientation: 'h'
+  }];
+  var statelayout = {
+    title: `<b>Fetal Deaths by State<b>`,
+    xaxis: { title: "Fetal Death count" },
+    yaxis: { title: "State" },
+    autosize: false,
+    height: 400,
+    width: 600,
+    }
+  Plotly.newPlot('state', state, statelayout);
 })
 
 
