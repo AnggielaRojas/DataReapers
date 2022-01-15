@@ -101,9 +101,9 @@ For our dataset we used the CDC  and pulled the following fields for the years 2
 
 # Findings: 
 
-## Delievery method vs fetal deaths 
+## Delivery method vs fetal deaths 
 * Vaginal fetal death accounted for :
-* Cesaren fetal death accounted for :
+* Cesarean fetal death accounted for :
 * Not stated  fetal death accounted for :
 * Not reported fetal death accounted for : 
  
