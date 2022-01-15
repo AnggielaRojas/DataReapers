@@ -1,9 +1,9 @@
 # Visualization for fetal deaths: 
 
-For this project we got our data source from https://wonder.cdc.gov/controller/datarequest/D133;jsessionid=597E1183D3658A174B2B660B9B7C . Cleaning the  allowed us to compare various contributions to fetal deaths. This data set gave us acces to data from 2005-2019.
+For this project we got our data source from https://wonder.cdc.gov/controller/datarequest/D133;jsessionid=597E1183D3658A174B2B660B9B7C . Cleaning the  allowed us to compare various contributions to fetal deaths. This data set gave us access to data from 2005-2019.
 
 ## Importance : 
-The purpose of this project was to be able to demostrate skills in order to analyse, visualize and better understand our data. Our data provided a baseline to fetal deaths over the past 14 years. This helps us identify contributing factors to fetal deaths 
+The purpose of this project was to be able to demonstrate skills in order to analyze, visualize and better understand our data. Our data provided a baseline to fetal deaths over the past 14 years. This helps us identify contributing factors to fetal deaths 
 ## Problem statement : 
 * Be able to use a database such as MongoDB, SQL,SQLite, in order to house our data and then visualize the data by comparing different categories. 
 * Be able to visualize the categories that contribute to fetal deaths.  
@@ -23,7 +23,7 @@ PostgreSQL, also known as Postgres, is a free and open-source relational databas
 * Windows users will be able to access the same files by clicking the start menu and scrolling to the ‘PostgreSQL 13’ folder
 
 ## Our database : 
-The database that we used was Postgres . The fetal_db file was  created in Postgres prior to running the jupyter notebook. When establishing connection to the database in the app.py file, we updates the connection to reflect correct username and password of the users system. A primary key was assigned to the table for the automap_base to work.<img width="880" alt="Screen Shot 2022-01-13 at 7 18 15 PM" src="https://user-images.githubusercontent.com/89117449/149429493-2894e24c-68de-4453-bfaf-a5e18f0b6db6.png">
+The database that we used was Postgres . The fetal_db file was  created in Postgres prior to running the jupyter notebook. When establishing connection to the database in the app.py file, we updated the connection to reflect correct username and password of the users system. A primary key was assigned to the table for the automap_base to work.<img width="880" alt="Screen Shot 2022-01-13 at 7 18 15 PM" src="https://user-images.githubusercontent.com/89117449/149429493-2894e24c-68de-4453-bfaf-a5e18f0b6db6.png">
 
 The url to get the data from is "/api/fetal_data"
 
@@ -34,11 +34,10 @@ The names of the variables to call are the same as in the jupyter notebook file,
 ## Jupiter Notebook and Python:
 Jupiter notebook is a web application that allows you to create and share live code. It allows you to also share visualizations, equations and text. Some of its uses include data cleaning and viewing, transformations, and statistical modeling. Jupiter supports Julia, Python, and R.
 
-A basic level of knowledge of Jupyter notebook and Python was needed in order to complete this project. We did some basic things such as reading a csv. file, cleaning the file , making data frames, and using data frames to make graphs.
-
+A basic level of knowledge of Jupyter notebook and Python was needed in order to complete this project. We did some basic things such as reading a csv. file,  and cleaning the file.
 ### Installing Juypter notebook
 
-There are different ways you can install Jupiter notebook, We can use either mamba or conda. Installation with mamba: In you terminal or on your command line type:
+There are different ways you can install Jupiter notebook, We can use either mamba or conda. Installation with mamba: In your terminal or on your command line type:
 
 <img width="606" alt="Screen Shot 2022-01-13 at 6 33 34 PM" src="https://user-images.githubusercontent.com/89117449/149425356-d30043be-5a84-45a1-808b-4407a146b03e.png">
 
@@ -60,7 +59,7 @@ For our dataset we used the CDC  and pulled the following fields for the years 2
 - Race/Hispanic origin - Pie graph
 - Delivery method - Bar chart 
 # Data manipulation : 
- The following include snipppets of how we cleanned and analyzed the data  
+ The following include snippets of how we cleaned and analyzed the data  
 ### Reading/ Data frame :<img width="876" alt="Screen Shot 2022-01-13 at 6 44 08 PM" src="https://user-images.githubusercontent.com/89117449/149426328-6a70133e-d3f6-4b80-a5ce-0dc7c71ed797.png">
 
 
@@ -73,8 +72,8 @@ For our dataset we used the CDC  and pulled the following fields for the years 2
 # Data Visualization 
 
 ## Bar graph 
-* The following inlcudes snipets of our bar graph 
-* The bar graphs compares Fetal deaths to Delivery methods such as Vaginal and Caesarean
+* The following includes snippets of our bar graph 
+* The bar graphs, compares Fetal deaths to Delivery methods such as Vaginal and Caesarean
 <img width="469" alt="Screen Shot 2022-01-13 at 10 37 31 PM" src="https://user-images.githubusercontent.com/89117449/149447428-b89541c2-a539-4939-9411-af3ccf002734.png">
 
 ### Our code : 
@@ -82,8 +81,8 @@ For our dataset we used the CDC  and pulled the following fields for the years 2
 
 ## Pie graph 
 
-* The following inlcudes snipets of our bar graph 
-* The bar graphs compares Fetal deaths to Race/Hispanic origin
+* The following includes snippets of our pie graph 
+* The bar graphs, compares Fetal deaths to Race/Hispanic origin
 <img width="396" alt="Screen Shot 2022-01-13 at 10 37 42 PM" src="https://user-images.githubusercontent.com/89117449/149447442-77d913d5-b232-4da6-b9e1-2e17c5a06157.png">
 
 ### Our code : 
@@ -91,6 +90,9 @@ For our dataset we used the CDC  and pulled the following fields for the years 2
 <img width="692" alt="Screen Shot 2022-01-13 at 11 01 16 PM" src="https://user-images.githubusercontent.com/89117449/149449410-96cbb3bb-f056-4bef-884a-3cf085320efe.png">
 
 ## Line graph 
+
+* The following includes snippets of our line graph 
+* The bar graphs, compares Fetal deaths to state of residence 
 
 <img width="521" alt="Screen Shot 2022-01-14 at 11 51 11 PM" src="https://user-images.githubusercontent.com/89117449/149609417-d44af71d-cc1f-44d2-b518-c8085e5cfcda.png">
 
@@ -116,5 +118,5 @@ For our dataset we used the CDC  and pulled the following fields for the years 2
 * All other accounted for 17.5% of fetal deaths 
 
 ## State vs Fetal deaths 
-* The state with the highest percentage of fetal deaths is Wyoming followed by West virginia, and Virginia.
+* The state with the highest percentage of fetal deaths is Wyoming followed by West Virginia, and Virginia.
 * The state with the lowest percentage of fetal deaths is Alabama.
