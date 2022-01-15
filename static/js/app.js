@@ -11,7 +11,9 @@ var race_eth = data.race_hispanic_origin
 var age = data.age
 var delivery_place = data.delivery_place
 var delivery_method = data.delivery_method    
-console.log(state)
+
+A = d3.sum(fetal_deaths)
+
 
 // bar chart creation for method
 
@@ -136,20 +138,23 @@ Plotly.newPlot("bar_place", barp_trace, barplayout);
 // add map for state data
   
 var state = [{
-    type: 'bar',
-    x: fetal_deaths.sort(function(a,b){return a - b}),
-    y: state,
-    orientation: 'h'
+    y: fetal_deaths.sum,
+    x: state,
+    type: 'line',
+    mode: 'markers'
+    // orientation: 'h'
   }];
+
   var statelayout = {
     title: `<b>Fetal Deaths by State<b>`,
-    xaxis: { title: "Fetal Death count" },
-    yaxis: { title: "State" },
-    autosize: false,
+    yaxis: { title: "Fetal Death count" },
+    xaxis: { title: "State" },
+    autosize: true,
     height: 400,
     width: 600,
     }
   Plotly.newPlot('state', state, statelayout);
+
 })
 
 
