@@ -8,7 +8,7 @@ The purpose of this project was to be able to demostrate skills in order to anal
 * Be able to use a database such as MongoDB, SQL,SQLite, in order to house our data and then visualize the data by comparing different categories. 
 * Be able to visualize the categories that contribute to fetal deaths.  
 ## Questions to answer : 
-* Does mother’s age affect fetal death?
+* What are the states with the highest fetal deaths?
 * What is the impact of a mother's race/hispanic origin?
 * Is there a delivery method that is more dangerous to fetal outcomes?
 
@@ -56,9 +56,9 @@ If you are unable to install Jupyter notebook :
 Jupyter allows you to try Jupyter Notebook on your browser!
 # Data Source 
 For our dataset we used the CDC  and pulled the following fields for the years 2005-2019 : 
-- Age of Mother - Line graph 
-- Delivery state - Bar graph
-- Delivery method - Lollipop chart 
+- state of residence - Line graph
+- Race/Hispanic origin - Pie graph
+- Delivery method - Bar chart 
 # Data manipulation : 
  The following include snipppets of how we cleanned and analyzed the data  
 ### Reading/ Data frame :<img width="876" alt="Screen Shot 2022-01-13 at 6 44 08 PM" src="https://user-images.githubusercontent.com/89117449/149426328-6a70133e-d3f6-4b80-a5ce-0dc7c71ed797.png">
@@ -101,3 +101,20 @@ For our dataset we used the CDC  and pulled the following fields for the years 2
 
 # Findings: 
 
+## Delievery method vs fetal deaths 
+* Vaginal fetal death accounted for :
+* Cesaren fetal death accounted for :
+* Not stated  fetal death accounted for :
+* Not reported fetal death accounted for : 
+ 
+ Based on the bar graph we can see there is an increase of fetal deaths if the method of delivery is a Vaginal delivery.
+ 
+## Race/ Hispanic Origin vs fetal deaths
+* Non- Hispanic White accounted for 44.3 % of fetal deaths.
+* Non-Hispanic Black accounted for 26.5%  of fetal deaths. 
+* Mexican accounted for 11.7 % of fetal deaths. 
+* All other accounted for 17.5% of fetal deaths 
+
+## State vs Fetal deaths 
+* The state with the highest percentage of fetal deaths is Wyoming followed by West virginia, and Virginia.
+* The state with the lowest percentage of fetal deaths is Alabama.
