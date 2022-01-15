@@ -81,15 +81,22 @@ For our dataset we used the CDC  and pulled the following fields for the years 2
 <img width="472" alt="Screen Shot 2022-01-13 at 10 59 48 PM" src="https://user-images.githubusercontent.com/89117449/149449301-3c1c7a54-8100-480d-8792-89d6fa9fab49.png">
 
 ## Pie graph 
+
 * The following inlcudes snipets of our bar graph 
 * The bar graphs compares Fetal deaths to Race/Hispanic origin
 <img width="396" alt="Screen Shot 2022-01-13 at 10 37 42 PM" src="https://user-images.githubusercontent.com/89117449/149447442-77d913d5-b232-4da6-b9e1-2e17c5a06157.png">
+
 ### Our code : 
+
 <img width="692" alt="Screen Shot 2022-01-13 at 11 01 16 PM" src="https://user-images.githubusercontent.com/89117449/149449410-96cbb3bb-f056-4bef-884a-3cf085320efe.png">
 
 ## Line graph 
 
 <img width="521" alt="Screen Shot 2022-01-14 at 11 51 11 PM" src="https://user-images.githubusercontent.com/89117449/149609417-d44af71d-cc1f-44d2-b518-c8085e5cfcda.png">
+
+### Our code : 
+
+<img width="352" alt="Screen Shot 2022-01-14 at 11 52 58 PM" src="https://user-images.githubusercontent.com/89117449/149609485-8d733f21-adef-45bb-a90d-2d81fd246497.png">
 
 
 # Findings: 
