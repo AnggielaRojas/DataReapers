@@ -89,5 +89,8 @@ For our dataset we used the CDC  and pulled the following fields for the years 2
 
 ## Line graph 
 
+<img width="521" alt="Screen Shot 2022-01-14 at 11 51 11 PM" src="https://user-images.githubusercontent.com/89117449/149609417-d44af71d-cc1f-44d2-b518-c8085e5cfcda.png">
+
+
 # Findings: 
 
